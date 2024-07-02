@@ -16,8 +16,8 @@
 // Set password to "" for open networks.
 
 //#define BLYNK_AUTH_TOKEN "-iHs4asjc7AuAvzxZSm9nYos8wz9_tAz"
-char ssid[] = "Dharmanshu";
-char pass[] = "I AM THE DJ";
+char ssid[] = "your-ssid";
+char pass[] = "your-password";
 
 // Your Blynk auth token.
 
