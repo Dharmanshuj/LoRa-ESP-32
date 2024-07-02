@@ -1,4 +1,4 @@
-# LoRa-ESP-32
+# LoRa-ESP-32 V2
 Certainly! The Heltec WiFi LoRa 32 V2 is a versatile development board that integrates an ESP32-D0WDQ6 system-on-chip (SoC). Here are some key features of this board:
 1. **Wireless Capabilities:**
    - **Bluetooth 4.2:** Enables communication with other Bluetooth devices.
