@@ -20,3 +20,13 @@ Download Blynk Iot for mobile. Set up the device in your mobile.
 
 Now connect the LoRa ESP device to your laptop. Upload the **Sender code** into new sketch in Arduino IDE.
 Connect another LoRa ESP device to your laptop and upload the **Receiver code** into new sketch in Arduino IDE.
+
+You will see the following actions:
+
+https://github.com/Dharmanshuj/LoRa-ESP-32/assets/124305189/16473b52-2a57-426f-a85b-b815cec616f9
+
+Connect the led to the receiver and then you see the following:
+
+https://github.com/Dharmanshuj/LoRa-ESP-32/assets/124305189/21508ba7-9e4c-448a-ae5e-0dd125fd4e3d
+
+## Thank You!!
