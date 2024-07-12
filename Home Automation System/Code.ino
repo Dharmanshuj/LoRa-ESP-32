@@ -515,8 +515,8 @@ char webpage[] PROGMEM = R"=====(
 AsyncWebServer server(80);
 WebSocketsServer websockets(81);
 
-const char* ssid = "Dharmanshu";
-const char* password = "I AM THE DJ";
+const char* ssid = "YOUR SSID";
+const char* password = "YOUR PASSWORD";
 
 void notFound(AsyncWebServerRequest *request)
 {
