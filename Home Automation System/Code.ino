@@ -3,7 +3,6 @@
 #include <WebSocketsServer.h>
 #include <ESPAsyncWebServer.h>
 #include <ArduinoJson.h>
-#include <Ticker.h>
 #include <TinyGPS++.h>
 #include <SoftwareSerial.h>
 #include <SPI.h>
@@ -33,10 +32,6 @@ TinyGPSPlus gps;
 
 SoftwareSerial ss(RXPin, TXPin);
 
-void send_sensor();
-
-Ticker timer;
-
 char webpage[] PROGMEM = R"=====(
 <!DOCTYPE html>
 <html lang="en">
@@ -44,9 +39,7 @@ char webpage[] PROGMEM = R"=====(
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice</title>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZJ450iqXt4Pb3VhXoMYeA4gCP_R9ePFU&callback=initMap" async defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
+    <script src="https://maps.googleapis.com/maps/api/js?key="YOU API KEY"&callback=initMap" async defer></script>
     <style>
         body {
             display: flex;
